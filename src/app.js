@@ -31,7 +31,9 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('about', {
     title: 'About me',
-    name: 'Eyal Roman'
+    name: 'Eyal Roman',
+    imgPath: '/img/tuti.PNG'
+
   })
 })
 
